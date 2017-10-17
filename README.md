@@ -79,7 +79,7 @@
     1. */producer*  to send a message
     2. */pairs*  to read all message
     3. */pairs/{key}/delete* to delete a msg per key
-    4. */pairs/delete to delete all msg
+    4. */pairs/delete* to delete all msg
 
 
 2. Simulate rollback scenario
