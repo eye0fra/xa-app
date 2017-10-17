@@ -22,7 +22,7 @@ public class DefaultPairService implements PairService {
         return em.find(Pair.class, key);
     }
 
-    // force existing transaction (for testing), this make sure the mdb is starting a transaction
+    // force existing transaction (for testing), this just to check that the mdb is starting a transaction
     @TransactionAttribute(value = TransactionAttributeType.MANDATORY)
     @Override
     public void set(Pair pair) {
